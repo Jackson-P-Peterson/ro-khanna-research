@@ -13,10 +13,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/RepRoKhanna_CA17_hires.jpg",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Representative Ro Khanna",
+        alt: "Opposition Research: Representative Ro Khanna - Financial Disclosures, Legislative Actions, Campaign Ethics",
       },
     ],
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Opposition Research: Representative Ro Khanna",
     description: "A comprehensive analysis of financial disclosures, legislative actions, and political operations",
-    images: ["/RepRoKhanna_CA17_hires.jpg"],
+    images: ["/og-image.jpg"],
   },
   icons: {
     icon: [
