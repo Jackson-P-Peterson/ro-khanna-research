@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/RepRoKhanna_CA17_hires.png",
+        url: "/RepRoKhanna_CA17_hires.jpg",
         width: 1200,
         height: 630,
         alt: "Representative Ro Khanna",
@@ -24,11 +24,15 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Opposition Research: Representative Ro Khanna",
     description: "A comprehensive analysis of financial disclosures, legislative actions, and political operations",
-    images: ["/RepRoKhanna_CA17_hires.png"],
+    images: ["/RepRoKhanna_CA17_hires.jpg"],
   },
   icons: {
-    icon: "/favicon.ico",
-    apple: "/RepRoKhanna_CA17_hires.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/RepRoKhanna_CA17_hires.jpg",
   },
 };
 
